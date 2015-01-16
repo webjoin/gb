@@ -6,7 +6,7 @@ import com.viewt.gb.framework.po.ViewtPO;
 
 @ViewtPO
 public class InsUesrPO {
-	
+	       
 	private long id ;
 	private String userId;
 	private Timestamp expireDate;
