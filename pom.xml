@@ -28,6 +28,10 @@
 		<artifactId>c3p0</artifactId>
 		<version>${com.mchange.c3p0.version}</version>
 	</dependency>
-    
+    <dependency>
+	<groupId>mysql</groupId>
+	<artifactId>mysql-connector-java</artifactId>
+	<version>5.1.34</version>
+</dependency>
   </dependencies>
 </project>
