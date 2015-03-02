@@ -38,7 +38,7 @@ public class DBHelper {
         return conn ;
     }
     public static void main(String[] args){
-        getTestConn("com.mysql.jdbc.Driver", "mysql:jdbc://127.0.0.1:3306/ucc", "root", "123456");
+        getTestConn("com.mysql.jdbc.Driver", "jdbc:mysql://localhost:3306/ucc", "root", "123456");
     }
     
     

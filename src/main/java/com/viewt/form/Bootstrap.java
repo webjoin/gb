@@ -172,7 +172,7 @@ public class Bootstrap extends javax.swing.JFrame {
         //jdbc:mysql://localhost:3306/sample_db?user=root&password=your_password
         if(EnumType.MYSQL.name().equalsIgnoreCase(type)){
             driver = EnumType.MYSQL.getInfo() ;
-            url = "mysql:jdbc://"+host+":3306/"+sid;
+            url = "jdbc:mysql://"+host+":3306/"+sid;
         }else if(EnumType.ORACLE.name().equalsIgnoreCase(type)){
             //jdbc:oracle:thin:@localhost:1521:orcl
             driver = EnumType.ORACLE.getInfo() ;
